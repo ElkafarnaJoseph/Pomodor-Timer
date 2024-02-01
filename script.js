@@ -4,7 +4,6 @@ const pause_btn = document.querySelector('.btn-pause');
 const unpause_btn = document.querySelector('.btn-unpause');
 const session = document.querySelector('.minutes');
 let myInterval; 
-let timer;
 let state = true;
 
 const appTimer = () => {
@@ -47,9 +46,5 @@ const appTimer = () => {
   }
   start_btn.addEventListener('click', appTimer);
   pause_btn.addEventListener('click', pauseTimer);
-  unpause_btn.addEventListener('click', appTimer);
-
-//   add a pause button 
-// add a reset timer
-
+// Add reset button
   
